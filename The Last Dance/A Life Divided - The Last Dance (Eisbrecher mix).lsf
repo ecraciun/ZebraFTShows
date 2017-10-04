@@ -328,7 +328,7 @@ TheLastDance
 #######################################
 
 @IntroBeat_A13
-0ms: loop 16000ms
+0ms: loop 20000ms
     0ms: setrgb A 0ms > 255,0,0         #red
     1000ms: setrgb A 0ms > 255,160,0    #orange
     2000ms: setrgb A 0ms > 255,255,0    #yellow
@@ -340,7 +340,7 @@ TheLastDance
     8000ms: setrgb A 0ms > 255,0,170    #pink
     9000ms: setrgb A 0ms > 255,255,255  #white
     10000ms: end
-16000ms: end
+20000ms: end
 
 @IntroBeat_B13
 0ms: loop 20000ms
