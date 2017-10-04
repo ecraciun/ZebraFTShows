@@ -1,0 +1,68 @@
+A Life Divided - The Last Dance (Eisbrecher Mix) - 1 beat = 0.5s
+------------------------------------------------
+
+A = the big middle segments
+B = top/bottom thinner segments
+R = righ
+L = left
+
+[1] Start (some kind of distorted voice, here is where i press ther buttons on the poi to start the show) -> Intro with beat
+00:04 -> 00:33.2 ==> White strobe, alternative on segments AB, increase speed to the end
+~~~29.2s~~~
+
+[2] Intro with beat -> Verse 1
+00:33.2 -> 00:49.2 ==> A cycle colors per 1 beat, B cycle other colors per 2 beats (make sure colors do not match)
+~~~16s~~~
+
+[3] Verse 1 -> Engines running high
+00:49.2 -> 1:20.5 ==> 
+~~~31.3s~~~
+
+[4] Engines running high -> chorus 1
+1:20.5 -> 1:29.1 ==> rainbow on B
+~~~8.6s~~~
+
+[5] Chorus 1 -> sombody like you
+1:29.1 -> 1:45 ==>  
+~~~15.9s~~~
+
+[6] Interlude 1 -> Verse 2
+1:45 -> 1:53.1 ==> 
+~~~8.1s~~~
+
+[7] Verse 2 -> Engines running high
+1:53.1 -> 2:24.5 ==>  
+~~~31.4s~~~
+
+[8] Engines running high -> Chorus 2
+2:24.5 -> 2:33.2 ==> 
+~~~8.7s~~~
+
+[9] Chorus 2 -> sombody like you
+2:33.2 -> 2:49 ==> 
+~~~15.8s~~~
+
+[10] Interlude 2 -> Interlude 2 with beat
+2:49 -> 3:15.1 ==> 
+~~~26.1s~~~
+
+[11] Interlude 2 with beat -> Chorus 3
+3:15.1 -> 3:47.4
+~~~32.3s~~~
+
+[12] Chorus 3 -> Outro
+3:47.4 -> 4:19.7 ==> 
+~~~32.3s~~~
+
+[13] Outro -> End
+4:19.7  -> 4:55 ==> 
+~~~19.7s~~~
+------------------------------------------------------------------------------------------------------------------------
+
+Unique light show modes:
+
+- [1] + [11] + [6] + [10]  	==> Intro / Outro / Interlude: 	white strobe, A/B alternative, 0.5s per segment; 1 loop -> 1s
+- [2] + [13] 				==> Intro beat / outro bet: 	solid colors, different on A/B, one color stays for 2 beats, one is offset to one beat (one stays, other changes, and so on); 10 colors; 1 loop -> 20 beats = 10s
+- [3] + [7] 				==> verse: 						pulse + dots?; 1 loop -> 0.5s
+- [4] + [8] 				==> chill verse outro: 			rainbow on B, A off; 1 loop -> ?s
+- [5] + [9] + [12] 			==> chorus: 					on the beat, full white A+B 30ms,  0.47s B orange, A cyan; 1 loop -> 0.5s
