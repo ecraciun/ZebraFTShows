@@ -1,0 +1,68 @@
+PULSE_mode
+
+#this example shows all speeds of PULSE mode with
+#medium brightness blue color (0,0,131) selected
+
+#the effect is created by interleaving white pulse
+#with various length color trails
+
+0s: loop 5s
+	 0ms: setrgb AB 0s > 255,255,255
+	 2ms: setrgb AB 0s > 0,0,0
+	12ms: setrgb AB 0s > 0,0,131
+	14ms: setrgb AB 0s > 0,0,0
+  24ms: end
+
+5s: loop 5s
+	 0ms: setrgb AB 0s > 255,255,255
+	 2ms: setrgb AB 0s > 0,0,0
+	12ms: setrgb AB 0s > 0,0,131
+	16ms: setrgb AB 0s > 0,0,0
+  26ms: end
+
+10s: loop 5s
+	 0ms: setrgb AB 0s > 255,255,255
+	 2ms: setrgb AB 0s > 0,0,0
+	12ms: setrgb AB 0s > 0,0,131
+	20ms: setrgb AB 0s > 0,0,0
+  30ms: end
+
+15s: loop 5s
+	 0ms: setrgb AB 0s > 255,255,255
+	 2ms: setrgb AB 0s > 0,0,0
+	12ms: setrgb AB 0s > 0,0,131
+	28ms: setrgb AB 0s > 0,0,0
+  38ms: end
+
+20s: loop 5s
+	 0ms: setrgb AB 0s > 255,255,255
+	 2ms: setrgb AB 0s > 0,0,0
+	12ms: setrgb AB 0s > 0,0,131
+	44ms: setrgb AB 0s > 0,0,0
+  54ms: end
+
+25s: loop 5s
+	 0ms: setrgb AB 0s > 255,255,255
+	 2ms: setrgb AB 0s > 0,0,0
+	12ms: setrgb AB 0s > 0,0,131
+	76ms: setrgb AB 0s > 0,0,0
+  86ms: end
+
+30s: loop 5s
+	 0ms: setrgb AB 0s > 255,255,255
+	 2ms: setrgb AB 0s > 0,0,0
+	12ms: setrgb AB 0s > 0,0,131
+	140ms: setrgb AB 0s > 0,0,0
+  150ms: end
+
+35s: loop 5s
+	 0ms: setrgb AB 0s > 255,255,255
+	 2ms: setrgb AB 0s > 0,0,0
+	12ms: setrgb AB 0s > 0,0,131
+	140ms: setrgb AB 0s > 0,0,0
+  150ms: end
+
+40s: end
+
+
+

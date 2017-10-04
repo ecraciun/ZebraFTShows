@@ -1,0 +1,50 @@
+STROBE_mode
+
+#this example shows all speeds of STROBE mode
+#when pink color is selected (255,0,170)
+
+#the effect is created by cyclical rotation
+#of color values to the right
+
+0s: loop 5s
+	 0ms: setrgb AB 0ms > 255,0,170
+	20ms: setrgb AB 0ms > 170,255,0
+	40ms: setrgb AB 0ms > 0,170,255
+  60ms: end
+5s: loop 5s
+	  0ms: setrgb AB 0ms > 255,0,170
+	 40ms: setrgb AB 0ms > 170,255,0
+	 80ms: setrgb AB 0ms > 0,170,255
+  120ms: end
+10s: loop 5s
+	  0ms: setrgb AB 0ms > 255,0,170
+	 80ms: setrgb AB 0ms > 170,255,0
+	160ms: setrgb AB 0ms > 0,170,255
+  240ms: end
+15s: loop 5s
+	  0ms: setrgb AB 0ms > 255,0,170
+	160ms: setrgb AB 0ms > 170,255,0
+	320ms: setrgb AB 0ms > 0,170,255
+  480ms: end
+20s: loop 5s
+	  0ms: setrgb AB 0ms > 255,0,170
+	320ms: setrgb AB 0ms > 170,255,0
+	640ms: setrgb AB 0ms > 0,170,255
+  960ms: end
+25s: loop 5s
+	  0ms: setrgb AB 0ms > 255,0,170
+	640ms: setrgb AB 0ms > 170,255,0
+	1280ms: setrgb AB 0ms > 0,170,255
+  1920ms: end
+30s: loop 5s
+	   0ms: setrgb AB 0ms > 255,0,170
+	1280ms: setrgb AB 0ms > 170,255,0
+	2560ms: setrgb AB 0ms > 0,170,255
+  3840ms: end
+35s: loop 5s
+	   0ms: setrgb AB 0ms > 255,0,170
+	2560ms: setrgb AB 0ms > 170,255,0
+	5120ms: setrgb AB 0ms > 0,170,255
+  7680ms: end
+40s: end
+

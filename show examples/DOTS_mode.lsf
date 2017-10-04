@@ -1,0 +1,41 @@
+DOTS_mode
+
+#this example shows all speeds of DOTS mode
+#in white color (255,255,255)
+
+#the effect is created by interleaving light pulse
+#with various length black gap
+
+0s: loop 5s
+	0ms: setrgb AB 0s > 255,255,255
+	1ms: setrgb AB 0s > 0,0,0
+  2ms: end
+5s: loop 5s
+	0ms: setrgb AB 0s > 255,255,255
+	1ms: setrgb AB 0s > 0,0,0
+  3ms: end
+10s: loop 5s
+	0ms: setrgb AB 0s > 255,255,255
+	1ms: setrgb AB 0s > 0,0,0
+  5ms: end
+15s: loop 5s
+	0ms: setrgb AB 0s > 255,255,255
+	1ms: setrgb AB 0s > 0,0,0
+  7ms: end
+20s: loop 5s
+	0ms: setrgb AB 0s > 255,255,255
+	1ms: setrgb AB 0s > 0,0,0
+  10ms: end
+25s: loop 5s
+	0ms: setrgb AB 0s > 255,255,255
+	1ms: setrgb AB 0s > 0,0,0
+  15ms: end
+30s: loop 5s
+	0ms: setrgb AB 0s > 255,255,255
+	1ms: setrgb AB 0s > 0,0,0
+  23ms: end
+35s: loop 5s
+	0ms: setrgb AB 0s > 255,255,255
+	2ms: setrgb AB 0s > 0,0,0
+  34ms: end
+40s: end

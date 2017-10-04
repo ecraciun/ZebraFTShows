@@ -1,0 +1,28 @@
+#How to program Pyroterra Lighttoys FT
+
+1000ms: setrgb A 0ms > 255,0,0
+2000ms: setrgb B 0ms > 0,0,255
+
+#This is a simple color function (default time is in milliseconds) - first number is time mark in the show, A/B selects which color segment is affected.
+
+4000ms : loop 5000ms
+      0ms: setrgb AB 0ms > 255,0,0
+     80ms: setrgb AB 0ms > 0,0,0
+    471ms: setrgb AB 0ms > 255,0,0
+    550ms: setrgb AB 0ms > 0,0,0
+    942ms: end
+  
+#This is a Loop - starts at specific moment in time, you need to type in the number how long the loop will repeat. Loop needs to finish with "end" command.
+
+9s: setrgb AB 0s > 255,0,0
+10s: setrgb AB 1s > 0,255,0
+11s: setrgb AB 1s > 0,0,255
+12s: setrgb AB 1s > 255,0,0
+
+#This is example of fade - code will gradually change from current color to the color specified - the second number after the A/B is duration of the fade effect.
+  
+14s: end
+
+#Every sequence must finish with "end" command.
+
+#More information how to create FT sequences can be found in our manual: "Lighttoys FT - data format.pdf"

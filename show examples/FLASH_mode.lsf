@@ -1,0 +1,43 @@
+FLASH_mode
+
+#this example shows all speeds of FLASH mode
+#in white color (255,255,255)
+
+#the effect is created by alteration of light
+#and dark pulses at various speed
+
+0s: loop 5s
+	 0ms: setrgb AB 0s > 255,255,255
+	10ms: setrgb AB 0s > 0,0,0
+  20ms: end
+5s: loop 5s
+	0ms: setrgb AB 0s > 255,255,255
+	15ms: setrgb AB 0s > 0,0,0
+  30ms: end
+10s: loop 5s
+	0ms: setrgb AB 0s > 255,255,255
+	23ms: setrgb AB 0s > 0,0,0
+  46ms: end
+15s: loop 5s
+	0ms: setrgb AB 0s > 255,255,255
+	34ms: setrgb AB 0s > 0,0,0
+  68ms: end
+20s: loop 5s
+	0ms: setrgb AB 0s > 255,255,255
+	51ms: setrgb AB 0s > 0,0,0
+  102ms: end
+25s: loop 5s
+	0ms: setrgb AB 0s > 255,255,255
+	76ms: setrgb AB 0s > 0,0,0
+  152ms: end
+30s: loop 5s
+	0ms: setrgb AB 0s > 255,255,255
+	114ms: setrgb AB 0s > 0,0,0
+  228ms: end
+35s: loop 5s
+	0ms: setrgb AB 0s > 255,255,255
+	171ms: setrgb AB 0s > 0,0,0
+  342ms: end
+40s: end
+
+

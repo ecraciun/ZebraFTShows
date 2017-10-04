@@ -1,0 +1,98 @@
+FT_colors
+
+#this sequence shows all default colors available
+#on the FT remote from full to lowest brightness
+
+#red
+0s: setrgb AB 0s > 255,0,0
+1s: setrgb AB 0s > 188,0,0
+2s: setrgb AB 0s > 131,0,0
+3s: setrgb AB 0s > 86,0,0
+4s: setrgb AB 0s > 51,0,0
+5s: setrgb AB 0s > 25,0,0
+6s: setrgb AB 0s > 0,0,0
+
+#orange
+7s: setrgb AB 0s > 255,160,0
+8s: setrgb AB 0s > 188,118,0
+9s: setrgb AB 0s > 131,82,0
+10s: setrgb AB 0s > 86,54,0
+11s: setrgb AB 0s > 51,32,0
+12s: setrgb AB 0s > 25,16,0
+13s: setrgb AB 0s > 0,0,0
+
+#yellow
+14s: setrgb AB 0s > 255,255,0
+15s: setrgb AB 0s > 188,188,0
+16s: setrgb AB 0s > 131,131,0
+17s: setrgb AB 0s > 86,86,0
+18s: setrgb AB 0s > 51,51,0
+19s: setrgb AB 0s > 25,25,0
+20s: setrgb AB 0s > 0,0,0
+
+#green
+21s: setrgb AB 0s > 0,255,0
+22s: setrgb AB 0s > 0,188,0
+23s: setrgb AB 0s > 0,131,0
+24s: setrgb AB 0s > 0,86,0
+25s: setrgb AB 0s > 0,51,0
+26s: setrgb AB 0s > 0,25,0
+27s: setrgb AB 0s > 0,0,0
+
+#teal
+28s: setrgb AB 0s > 0,255,100
+29s: setrgb AB 0s > 0,188,74
+30s: setrgb AB 0s > 0,131,52
+31s: setrgb AB 0s > 0,86,34
+32s: setrgb AB 0s > 0,51,20
+33s: setrgb AB 0s > 0,25,10
+34s: setrgb AB 0s > 0,0,0
+
+#azure
+35s: setrgb AB 0s > 0,200,200
+36s: setrgb AB 0s > 0,147,147
+37s: setrgb AB 0s > 0,103,103
+38s: setrgb AB 0s > 0,67,67
+39s: setrgb AB 0s > 0,40,40
+40s: setrgb AB 0s > 0,20,20
+41s: setrgb AB 0s > 0,0,0
+
+#blue
+42s: setrgb AB 0s > 0,0,255
+43s: setrgb AB 0s > 0,0,188
+44s: setrgb AB 0s > 0,0,131
+45s: setrgb AB 0s > 0,0,86
+46s: setrgb AB 0s > 0,0,51
+47s: setrgb AB 0s > 0,0,25
+48s: setrgb AB 0s > 0,0,0
+
+#violet
+49s: setrgb AB 0s > 190,0,255
+50s: setrgb AB 0s > 140,0,188
+51s: setrgb AB 0s > 98,0,131
+52s: setrgb AB 0s > 64,0,86
+53s: setrgb AB 0s > 38,0,51
+54s: setrgb AB 0s > 19,0,25
+55s: setrgb AB 0s > 0,0,0
+
+#pink
+56s: setrgb AB 0s > 255,0,170
+57s: setrgb AB 0s > 188,0,125
+58s: setrgb AB 0s > 131,0,88
+59s: setrgb AB 0s > 86,0,57
+60s: setrgb AB 0s > 51,0,34
+61s: setrgb AB 0s > 25,0,17
+62s: setrgb AB 0s > 0,0,0
+
+#white
+63s: setrgb AB 0s > 255,255,255
+64s: setrgb AB 0s > 188,188,188
+65s: setrgb AB 0s > 131,131,131
+66s: setrgb AB 0s > 86,86,86
+67s: setrgb AB 0s > 51,51,51
+68s: setrgb AB 0s > 25,25,25
+69s: setrgb AB 0s > 0,0,0
+
+70s: end
+
+

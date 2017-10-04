@@ -1,0 +1,81 @@
+FADE_mode
+
+#this example shows all speeds of FADE mode
+#at full brightness
+
+#the effect is created by cyclical rotation
+#of color value 255 to the right, beginning with white color (255,255,255)
+
+0s: loop 5s
+    0ms: setrgb AB 16ms > 255,255,255
+   16ms: setrgb AB 16ms > 255,0,0
+   32ms: setrgb AB 16ms > 255,255,0
+   48ms: setrgb AB 16ms > 0,255,0
+   64ms: setrgb AB 16ms > 0,255,255
+   80ms: setrgb AB 16ms > 0,0,255
+   96ms: setrgb AB 16ms > 255,0,255
+  112ms: end
+5s: loop 5s
+    0ms: setrgb AB 32ms > 255,255,255
+   32ms: setrgb AB 32ms > 255,0,0
+   64ms: setrgb AB 32ms > 255,255,0
+   96ms: setrgb AB 32ms > 0,255,0
+  128ms: setrgb AB 32ms > 0,255,255
+  160ms: setrgb AB 32ms > 0,0,255
+  192ms: setrgb AB 32ms > 255,0,255
+  224ms: end
+10s: loop 5s
+    0ms: setrgb AB 64ms > 255,255,255
+   64ms: setrgb AB 64ms > 255,0,0
+  128ms: setrgb AB 64ms > 255,255,0
+  192ms: setrgb AB 64ms > 0,255,0
+  256ms: setrgb AB 64ms > 0,255,255
+  320ms: setrgb AB 64ms > 0,0,255
+  384ms: setrgb AB 64ms > 255,0,255
+  448ms: end
+15s: loop 5s
+    0ms: setrgb AB 128ms > 255,255,255
+  128ms: setrgb AB 128ms > 255,0,0
+  256ms: setrgb AB 128ms > 255,255,0
+  384ms: setrgb AB 128ms > 0,255,0
+  512ms: setrgb AB 128ms > 0,255,255
+  640ms: setrgb AB 128ms > 0,0,255
+  768ms: setrgb AB 128ms > 255,0,255
+  896ms: end
+20s: loop 5s
+     0ms: setrgb AB 256ms > 255,255,255
+   256ms: setrgb AB 256ms > 255,0,0
+   512ms: setrgb AB 256ms > 255,255,0
+   768ms: setrgb AB 256ms > 0,255,0
+  1024ms: setrgb AB 256ms > 0,255,255
+  1280ms: setrgb AB 256ms > 0,0,255
+  1536ms: setrgb AB 256ms > 255,0,255
+  1792ms: end
+25s: loop 5s
+     0ms: setrgb AB 512ms > 255,255,255
+   512ms: setrgb AB 512ms > 255,0,0
+  1024ms: setrgb AB 512ms > 255,255,0
+  1536ms: setrgb AB 512ms > 0,255,0
+  2048ms: setrgb AB 512ms > 0,255,255
+  2560ms: setrgb AB 512ms > 0,0,255
+  3072ms: setrgb AB 512ms > 255,0,255
+  3584ms: end
+30s: loop 10s
+     0ms: setrgb AB 1024ms > 255,255,255
+  1024ms: setrgb AB 1024ms > 255,0,0
+  2048ms: setrgb AB 1024ms > 255,255,0
+  3072ms: setrgb AB 1024ms > 0,255,0
+  4096ms: setrgb AB 1024ms > 0,255,255
+  5120ms: setrgb AB 1024ms > 0,0,255
+  6144ms: setrgb AB 1024ms > 255,0,255
+  7168ms: end
+40s: loop 15s
+      0ms: setrgb AB 2048ms > 255,255,255
+   2048ms: setrgb AB 2048ms > 255,0,0
+   4096ms: setrgb AB 2048ms > 255,255,0
+   6144ms: setrgb AB 2048ms > 0,255,0
+   8192ms: setrgb AB 2048ms > 0,255,255
+  10240ms: setrgb AB 2048ms > 0,0,255
+  12288ms: setrgb AB 2048ms > 255,0,255
+  14336ms: end
+55s: end

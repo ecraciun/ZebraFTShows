@@ -1,0 +1,12 @@
+fun time show
+
+0s: setrgb AB 0s > 0,0,0
+0s: setrgb AB 4s > 255,255,255
+
+6s: loop 4s
+        0s: setrgb A 0s > 0,255,0
+        0s: setrgb B 0s > 255,0,170
+        25ms: setrgb B 0s > 0,0,0
+        50ms: end
+
+10s: end
