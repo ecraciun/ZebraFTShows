@@ -1,11 +1,62 @@
 TheLastDance
 
+#off
 0s: setrgb AB 0s > 0,0,0
 
+#1
 0s: fork Flash_A1
 0s: fork Flash_B1
 
-300s: end #main end
+#2
+29200ms: fork IntroBeat_A2
+29200ms: fork IntroBeat_B2
+
+#3
+45200ms : fork Verse_A3
+45200ms : fork Verse_B3
+
+#4
+76500ms: setrgb A 0ms > 0,0,0
+76500ms: fork Fade_B4
+
+#5
+85100ms: fork Chorus_A5
+85100ms: fork Chorus_B5
+
+#6
+101000ms: fork Flash_A6
+101000ms: fork Flash_B6
+
+#7
+109100ms: fork Verse_A7
+109100ms: fork Verse_B7
+
+#8
+140500ms: setrgb A 0ms > 0,0,0
+140500ms: fork Fade_B8
+
+#9
+149200ms: fork Chorus_A9
+149200ms: fork Chorus_B9
+
+#10
+165000ms: fork Flash_A10
+165000ms: fork Flash_B10
+
+#11
+191100ms: fork IntroBeat_A11
+191100ms: fork IntroBeat_B11
+
+#12
+223400ms: fork Chorus_A12
+223400ms: fork Chorus_B12
+
+#13
+255700ms: fork IntroBeat_A13
+255700ms: fork IntroBeat_B13
+
+
+276000ms: end #main end
 
 #######################################
 # Intro sequence 1 
@@ -47,17 +98,17 @@ TheLastDance
 
 @IntroBeat_B2
 0ms: loop 16000ms
-    0ms: setrgb A 0ms > 0,255,100       #teal
-    500ms: setrgb A 0ms > 0,200,200     #azure
-    1500ms: setrgb A 0ms > 190,0,255    #violet 
-    2500ms: setrgb A 0ms > 255,0,170    #pink
-    3500ms: setrgb A 0ms > 255,0,0      #red
-    4500ms: setrgb A 0ms > 255,255,255  #white
-    5500ms: setrgb A 0ms > 255,160,0    #orange
-    6500ms: setrgb A 0ms > 255,255,0    #yellow
-    7500ms: setrgb A 0ms > 0,255,0      #green
-    8500ms: setrgb A 0ms > 0,0,255      #blue
-    9500ms: setrgb A 0ms > 0,255,100    #teal
+    0ms: setrgb B 0ms > 0,255,100       #teal
+    500ms: setrgb B 0ms > 0,200,200     #azure
+    1500ms: setrgb B 0ms > 190,0,255    #violet 
+    2500ms: setrgb B 0ms > 255,0,170    #pink
+    3500ms: setrgb B 0ms > 255,0,0      #red
+    4500ms: setrgb B 0ms > 255,255,255  #white
+    5500ms: setrgb B 0ms > 255,160,0    #orange
+    6500ms: setrgb B 0ms > 255,255,0    #yellow
+    7500ms: setrgb B 0ms > 0,255,0      #green
+    8500ms: setrgb B 0ms > 0,0,255      #blue
+    9500ms: setrgb B 0ms > 0,255,100    #teal
     10000ms: end
 16000ms: end
 
@@ -97,6 +148,27 @@ TheLastDance
   768ms: setrgb B 128ms > 255,0,255
   896ms: end
 8600ms: end
+
+
+#######################################
+# Chorus sequence 5 
+#######################################
+
+@Chorus_A5
+0ms: loop 15900ms
+    0ms: setrgb A 0ms > 255,255,255
+    30ms: setrgb A 0ms > 0,0,0
+    60ms: setrgb A 0ms > 0,200,200
+    500ms: end
+15900ms: end
+
+@Chorus_B5
+0ms: loop 15900ms
+    0ms: setrgb B 0ms > 255,255,255
+    30ms: setrgb A 0ms > 0,0,0
+    60ms: setrgb B 0ms > 255,160,0
+    500ms: end
+15900ms: end
 
 
 #######################################
@@ -156,6 +228,27 @@ TheLastDance
 
 
 #######################################
+# Chorus sequence 9 
+#######################################
+
+@Chorus_A9
+0ms: loop 15800ms
+    0ms: setrgb A 0ms > 255,255,255
+    30ms: setrgb A 0ms > 0,0,0
+    60ms: setrgb A 0ms > 0,200,200
+    500ms: end
+15800ms: end
+
+@Chorus_B9
+0ms: loop 15800ms
+    0ms: setrgb B 0ms > 255,255,255
+    30ms: setrgb A 0ms > 0,0,0
+    60ms: setrgb B 0ms > 255,160,0
+    500ms: end
+15800ms: end
+
+
+#######################################
 # Interlude sequence 10
 #######################################
 
@@ -194,18 +287,39 @@ TheLastDance
 
 @IntroBeat_B11
 0ms: loop 32300ms
-    0ms: setrgb A 0ms > 0,255,100       #teal
-    500ms: setrgb A 0ms > 0,200,200     #azure
-    1500ms: setrgb A 0ms > 190,0,255    #violet 
-    2500ms: setrgb A 0ms > 255,0,170    #pink
-    3500ms: setrgb A 0ms > 255,0,0      #red
-    4500ms: setrgb A 0ms > 255,255,255  #white
-    5500ms: setrgb A 0ms > 255,160,0    #orange
-    6500ms: setrgb A 0ms > 255,255,0    #yellow
-    7500ms: setrgb A 0ms > 0,255,0      #green
-    8500ms: setrgb A 0ms > 0,0,255      #blue
-    9500ms: setrgb A 0ms > 0,255,100    #teal
+    0ms: setrgb B 0ms > 0,255,100       #teal
+    500ms: setrgb B 0ms > 0,200,200     #azure
+    1500ms: setrgb B 0ms > 190,0,255    #violet 
+    2500ms: setrgb B 0ms > 255,0,170    #pink
+    3500ms: setrgb B 0ms > 255,0,0      #red
+    4500ms: setrgb B 0ms > 255,255,255  #white
+    5500ms: setrgb B 0ms > 255,160,0    #orange
+    6500ms: setrgb B 0ms > 255,255,0    #yellow
+    7500ms: setrgb B 0ms > 0,255,0      #green
+    8500ms: setrgb B 0ms > 0,0,255      #blue
+    9500ms: setrgb B 0ms > 0,255,100    #teal
     10000ms: end
+32300ms: end
+
+
+#######################################
+# Chorus sequence 12
+#######################################
+
+@Chorus_A12
+0ms: loop 32300ms
+    0ms: setrgb A 0ms > 255,255,255
+    30ms: setrgb A 0ms > 0,0,0
+    60ms: setrgb A 0ms > 0,200,200
+    500ms: end
+32300ms: end
+
+@Chorus_B12
+0ms: loop 32300ms
+    0ms: setrgb B 0ms > 255,255,255
+    30ms: setrgb A 0ms > 0,0,0
+    60ms: setrgb B 0ms > 255,160,0
+    500ms: end
 32300ms: end
 
 
@@ -230,16 +344,16 @@ TheLastDance
 
 @IntroBeat_B13
 0ms: loop 20000ms
-    0ms: setrgb A 0ms > 0,255,100       #teal
-    500ms: setrgb A 0ms > 0,200,200     #azure
-    1500ms: setrgb A 0ms > 190,0,255    #violet 
-    2500ms: setrgb A 0ms > 255,0,170    #pink
-    3500ms: setrgb A 0ms > 255,0,0      #red
-    4500ms: setrgb A 0ms > 255,255,255  #white
-    5500ms: setrgb A 0ms > 255,160,0    #orange
-    6500ms: setrgb A 0ms > 255,255,0    #yellow
-    7500ms: setrgb A 0ms > 0,255,0      #green
-    8500ms: setrgb A 0ms > 0,0,255      #blue
-    9500ms: setrgb A 0ms > 0,255,100    #teal
+    0ms: setrgb B 0ms > 0,255,100       #teal
+    500ms: setrgb B 0ms > 0,200,200     #azure
+    1500ms: setrgb B 0ms > 190,0,255    #violet 
+    2500ms: setrgb B 0ms > 255,0,170    #pink
+    3500ms: setrgb B 0ms > 255,0,0      #red
+    4500ms: setrgb B 0ms > 255,255,255  #white
+    5500ms: setrgb B 0ms > 255,160,0    #orange
+    6500ms: setrgb B 0ms > 255,255,0    #yellow
+    7500ms: setrgb B 0ms > 0,255,0      #green
+    8500ms: setrgb B 0ms > 0,0,255      #blue
+    9500ms: setrgb B 0ms > 0,255,100    #teal
     10000ms: end
 20000ms: end
