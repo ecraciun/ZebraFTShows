@@ -1,1 +1,245 @@
 TheLastDance
+
+0s: setrgb AB 0s > 0,0,0
+
+0s: fork Flash_A1
+0s: fork Flash_B1
+
+300s: end #main end
+
+#######################################
+# Intro sequence 1 
+#######################################
+
+@Flash_A1
+0ms: loop 29200ms
+    0ms: setrgb A 0ms > 255,255,255
+    40ms: setrgb A 0ms > 0,0,0
+    80ms: end
+29200ms: end
+
+@Flash_B1
+0ms: loop 29200ms
+    0ms: setrgb B 0ms > 0,0,0
+    40ms: setrgb B 0ms > 255,255,255
+    80ms: end
+29200ms: end
+
+
+#######################################
+# Intro beat sequence 2 
+#######################################
+
+@IntroBeat_A2
+0ms: loop 16000ms
+    0ms: setrgb A 0ms > 255,0,0         #red
+    1000ms: setrgb A 0ms > 255,160,0    #orange
+    2000ms: setrgb A 0ms > 255,255,0    #yellow
+    3000ms: setrgb A 0ms > 0,255,0      #green
+    4000ms: setrgb A 0ms > 0,255,100    #teal
+    5000ms: setrgb A 0ms > 0,200,200    #azure
+    6000ms: setrgb A 0ms > 0,0,255      #blue
+    7000ms: setrgb A 0ms > 190,0,255    #violet
+    8000ms: setrgb A 0ms > 255,0,170    #pink
+    9000ms: setrgb A 0ms > 255,255,255  #white
+    10000ms: end
+16000ms: end
+
+@IntroBeat_B2
+0ms: loop 16000ms
+    0ms: setrgb A 0ms > 0,255,100       #teal
+    500ms: setrgb A 0ms > 0,200,200     #azure
+    1500ms: setrgb A 0ms > 190,0,255    #violet 
+    2500ms: setrgb A 0ms > 255,0,170    #pink
+    3500ms: setrgb A 0ms > 255,0,0      #red
+    4500ms: setrgb A 0ms > 255,255,255  #white
+    5500ms: setrgb A 0ms > 255,160,0    #orange
+    6500ms: setrgb A 0ms > 255,255,0    #yellow
+    7500ms: setrgb A 0ms > 0,255,0      #green
+    8500ms: setrgb A 0ms > 0,0,255      #blue
+    9500ms: setrgb A 0ms > 0,255,100    #teal
+    10000ms: end
+16000ms: end
+
+
+#######################################
+# Verse sequence 3 
+#######################################
+
+@Verse_A3
+0ms: loop 31300ms
+    0ms: setrgb A 0s > 190,0,255
+	1ms: setrgb A 0s > 0,0,0
+    10ms: end
+31300ms: end
+
+@Verse_B3
+0ms: loop 31300ms
+	0ms: setrgb B 0ms > 255,0,170
+	160ms: setrgb B 0ms > 170,255,0
+	320ms: setrgb B 0ms > 0,170,255
+  480ms: end
+31300ms: end
+
+
+#######################################
+# Chill verse outro sequence 4 
+#######################################
+
+@Fade_B4
+0ms: loop 8600ms
+    0ms: setrgb B 128ms > 255,255,255
+  128ms: setrgb B 128ms > 255,0,0
+  256ms: setrgb B 128ms > 255,255,0
+  384ms: setrgb B 128ms > 0,255,0
+  512ms: setrgb B 128ms > 0,255,255
+  640ms: setrgb B 128ms > 0,0,255
+  768ms: setrgb B 128ms > 255,0,255
+  896ms: end
+8600ms: end
+
+
+#######################################
+# Interlude sequence 6
+#######################################
+
+@Flash_A6
+0ms: loop 8100ms
+    0ms: setrgb A 0ms > 255,255,255
+    40ms: setrgb A 0ms > 0,0,0
+    80ms: end
+8100ms: end
+
+@Flash_B6
+0ms: loop 8100ms
+    0ms: setrgb B 0ms > 0,0,0
+    40ms: setrgb B 0ms > 255,255,255
+    80ms: end
+8100ms: end
+
+
+#######################################
+# Verse sequence 7 
+#######################################
+
+@Verse_A7
+0ms: loop 31400ms
+    0ms: setrgb A 0s > 190,0,255
+	1ms: setrgb A 0s > 0,0,0
+    10ms: end
+31400ms: end
+
+@Verse_B7
+0ms: loop 31400ms
+	0ms: setrgb B 0ms > 255,0,170
+	160ms: setrgb B 0ms > 170,255,0
+	320ms: setrgb B 0ms > 0,170,255
+  480ms: end
+31400ms: end
+
+
+#######################################
+# Chill verse outro sequence 8 
+#######################################
+
+@Fade_B8
+0ms: loop 8700ms
+    0ms: setrgb B 128ms > 255,255,255
+  128ms: setrgb B 128ms > 255,0,0
+  256ms: setrgb B 128ms > 255,255,0
+  384ms: setrgb B 128ms > 0,255,0
+  512ms: setrgb B 128ms > 0,255,255
+  640ms: setrgb B 128ms > 0,0,255
+  768ms: setrgb B 128ms > 255,0,255
+  896ms: end
+8700ms: end
+
+
+#######################################
+# Interlude sequence 10
+#######################################
+
+@Flash_A10
+0ms: loop 26100ms
+    0ms: setrgb A 0ms > 255,255,255
+    40ms: setrgb A 0ms > 0,0,0
+    80ms: end
+26100ms: end
+
+@Flash_B10
+0ms: loop 26100ms
+    0ms: setrgb B 0ms > 0,0,0
+    40ms: setrgb B 0ms > 255,255,255
+    80ms: end
+26100ms: end
+
+#######################################
+# Intro beat sequence 11
+#######################################
+
+@IntroBeat_A11
+0ms: loop 32300ms
+    0ms: setrgb A 0ms > 255,0,0         #red
+    1000ms: setrgb A 0ms > 255,160,0    #orange
+    2000ms: setrgb A 0ms > 255,255,0    #yellow
+    3000ms: setrgb A 0ms > 0,255,0      #green
+    4000ms: setrgb A 0ms > 0,255,100    #teal
+    5000ms: setrgb A 0ms > 0,200,200    #azure
+    6000ms: setrgb A 0ms > 0,0,255      #blue
+    7000ms: setrgb A 0ms > 190,0,255    #violet
+    8000ms: setrgb A 0ms > 255,0,170    #pink
+    9000ms: setrgb A 0ms > 255,255,255  #white
+    10000ms: end
+32300ms: end
+
+@IntroBeat_B11
+0ms: loop 32300ms
+    0ms: setrgb A 0ms > 0,255,100       #teal
+    500ms: setrgb A 0ms > 0,200,200     #azure
+    1500ms: setrgb A 0ms > 190,0,255    #violet 
+    2500ms: setrgb A 0ms > 255,0,170    #pink
+    3500ms: setrgb A 0ms > 255,0,0      #red
+    4500ms: setrgb A 0ms > 255,255,255  #white
+    5500ms: setrgb A 0ms > 255,160,0    #orange
+    6500ms: setrgb A 0ms > 255,255,0    #yellow
+    7500ms: setrgb A 0ms > 0,255,0      #green
+    8500ms: setrgb A 0ms > 0,0,255      #blue
+    9500ms: setrgb A 0ms > 0,255,100    #teal
+    10000ms: end
+32300ms: end
+
+
+#######################################
+# Intro beat sequence 13 
+#######################################
+
+@IntroBeat_A13
+0ms: loop 16000ms
+    0ms: setrgb A 0ms > 255,0,0         #red
+    1000ms: setrgb A 0ms > 255,160,0    #orange
+    2000ms: setrgb A 0ms > 255,255,0    #yellow
+    3000ms: setrgb A 0ms > 0,255,0      #green
+    4000ms: setrgb A 0ms > 0,255,100    #teal
+    5000ms: setrgb A 0ms > 0,200,200    #azure
+    6000ms: setrgb A 0ms > 0,0,255      #blue
+    7000ms: setrgb A 0ms > 190,0,255    #violet
+    8000ms: setrgb A 0ms > 255,0,170    #pink
+    9000ms: setrgb A 0ms > 255,255,255  #white
+    10000ms: end
+16000ms: end
+
+@IntroBeat_B13
+0ms: loop 20000ms
+    0ms: setrgb A 0ms > 0,255,100       #teal
+    500ms: setrgb A 0ms > 0,200,200     #azure
+    1500ms: setrgb A 0ms > 190,0,255    #violet 
+    2500ms: setrgb A 0ms > 255,0,170    #pink
+    3500ms: setrgb A 0ms > 255,0,0      #red
+    4500ms: setrgb A 0ms > 255,255,255  #white
+    5500ms: setrgb A 0ms > 255,160,0    #orange
+    6500ms: setrgb A 0ms > 255,255,0    #yellow
+    7500ms: setrgb A 0ms > 0,255,0      #green
+    8500ms: setrgb A 0ms > 0,0,255      #blue
+    9500ms: setrgb A 0ms > 0,255,100    #teal
+    10000ms: end
+20000ms: end

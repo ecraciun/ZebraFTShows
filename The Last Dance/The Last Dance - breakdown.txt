@@ -61,8 +61,8 @@ L = left
 
 Unique light show modes:
 
-- [1] + [11] + [6] + [10]  	==> Intro / Outro / Interlude: 	white strobe, A/B alternative, 0.5s per segment; 1 loop -> 1s
-- [2] + [13] 				==> Intro beat / outro bet: 	solid colors, different on A/B, one color stays for 2 beats, one is offset to one beat (one stays, other changes, and so on); 10 colors; 1 loop -> 20 beats = 10s
-- [3] + [7] 				==> verse: 						pulse + dots?; 1 loop -> 0.5s
-- [4] + [8] 				==> chill verse outro: 			rainbow on B, A off; 1 loop -> ?s
+DONE - [1] + [6] + [10]   	    ==> Intro / Outro / Interlude: 	white strobe, A/B alternative, 0.5s per segment; 1 loop -> 1s
+DONE - [2] + [11] + [13] 		==> Intro beat / outro bet: 	solid colors, different on A/B, one color stays for 2 beats, one is offset to one beat (one stays, other changes, and so on); 10 colors; 1 loop -> 20 beats = 10s
+DONE - [3] + [7] 				==> verse: 						A purple dots, B strobe; 1 loop -> 0.5s
+DONE - [4] + [8] 				==> chill verse outro: 			rainbow on B, A off; 1 loop -> 896ms
 - [5] + [9] + [12] 			==> chorus: 					on the beat, full white A+B 30ms,  0.47s B orange, A cyan; 1 loop -> 0.5s
