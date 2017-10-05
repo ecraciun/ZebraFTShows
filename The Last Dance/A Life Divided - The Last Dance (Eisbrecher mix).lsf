@@ -56,7 +56,7 @@ TheLastDance
 255700ms: fork IntroBeat_B13
 
 
-276000ms: end #main end
+300000ms: end #main end
 
 #######################################
 # Intro sequence 1 
@@ -120,7 +120,7 @@ TheLastDance
 @Verse_A3
 0ms: loop 31300ms
     0ms: setrgb A 0s > 190,0,255
-	1ms: setrgb A 0s > 0,0,0
+    1ms: setrgb A 0s > 0,0,0
     10ms: end
 31300ms: end
 
@@ -159,14 +159,16 @@ TheLastDance
     0ms: setrgb A 0ms > 255,255,255
     30ms: setrgb A 0ms > 0,0,0
     60ms: setrgb A 0ms > 0,200,200
+    470ms: setrgb A 0ms > 0,0,0
     500ms: end
 15900ms: end
 
 @Chorus_B5
 0ms: loop 15900ms
     0ms: setrgb B 0ms > 255,255,255
-    30ms: setrgb A 0ms > 0,0,0
+    30ms: setrgb B 0ms > 0,0,0
     60ms: setrgb B 0ms > 255,160,0
+    470ms: setrgb B 0ms > 0,0,0
     500ms: end
 15900ms: end
 
@@ -197,7 +199,7 @@ TheLastDance
 @Verse_A7
 0ms: loop 31400ms
     0ms: setrgb A 0s > 190,0,255
-	1ms: setrgb A 0s > 0,0,0
+    1ms: setrgb A 0s > 0,0,0
     10ms: end
 31400ms: end
 
@@ -236,14 +238,16 @@ TheLastDance
     0ms: setrgb A 0ms > 255,255,255
     30ms: setrgb A 0ms > 0,0,0
     60ms: setrgb A 0ms > 0,200,200
+    470ms: setrgb A 0ms > 0,0,0
     500ms: end
 15800ms: end
 
 @Chorus_B9
 0ms: loop 15800ms
     0ms: setrgb B 0ms > 255,255,255
-    30ms: setrgb A 0ms > 0,0,0
+    30ms: setrgb B 0ms > 0,0,0
     60ms: setrgb B 0ms > 255,160,0
+    470ms: setrgb B 0ms > 0,0,0
     500ms: end
 15800ms: end
 
@@ -311,14 +315,16 @@ TheLastDance
     0ms: setrgb A 0ms > 255,255,255
     30ms: setrgb A 0ms > 0,0,0
     60ms: setrgb A 0ms > 0,200,200
+    470ms: setrgb A 0ms > 0,0,0
     500ms: end
 32300ms: end
 
 @Chorus_B12
 0ms: loop 32300ms
     0ms: setrgb B 0ms > 255,255,255
-    30ms: setrgb A 0ms > 0,0,0
+    30ms: setrgb B 0ms > 0,0,0
     60ms: setrgb B 0ms > 255,160,0
+    470ms: setrgb B 0ms > 0,0,0
     500ms: end
 32300ms: end
 
@@ -328,7 +334,7 @@ TheLastDance
 #######################################
 
 @IntroBeat_A13
-0ms: loop 20000ms
+0ms: loop 36000ms
     0ms: setrgb A 0ms > 255,0,0         #red
     1000ms: setrgb A 0ms > 255,160,0    #orange
     2000ms: setrgb A 0ms > 255,255,0    #yellow
@@ -340,10 +346,10 @@ TheLastDance
     8000ms: setrgb A 0ms > 255,0,170    #pink
     9000ms: setrgb A 0ms > 255,255,255  #white
     10000ms: end
-20000ms: end
+36000ms: end
 
 @IntroBeat_B13
-0ms: loop 20000ms
+0ms: loop 36000ms
     0ms: setrgb B 0ms > 0,255,100       #teal
     500ms: setrgb B 0ms > 0,200,200     #azure
     1500ms: setrgb B 0ms > 190,0,255    #violet 
@@ -356,4 +362,4 @@ TheLastDance
     8500ms: setrgb B 0ms > 0,0,255      #blue
     9500ms: setrgb B 0ms > 0,255,100    #teal
     10000ms: end
-20000ms: end
+36000ms: end
