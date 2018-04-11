@@ -36,8 +36,8 @@ Demons
 150500ms: fork Chorus_B8
 
 #9
-171500ms: fork Fade_A9
-171500ms: fork Fade_B9
+171500ms: setrgb AB 0s > 255,255,255
+171600ms: setrgb AB 2s > 0,0,0
 
 173500ms: end
 
@@ -46,8 +46,42 @@ Demons
 #######################################
 
 @Dots_A1
+0ms: loop 22500ms
+    0ms: loop 2000ms
+        0ms: setrgb A 0s > 140,0,188    #violet
+        1ms: setrgb A 0s > 0,0,0
+        10ms: end
+    2000ms: end
+    2000ms: loop 2000ms
+        0ms: setrgb A 0s > 188,188,188   #white
+        1ms: setrgb A 0s > 0,0,0
+        10ms: end
+    4000ms: end
+    4000ms: loop 2000ms
+        0ms: setrgb A 0s > 0,147,147    #azure
+        1ms: setrgb A 0s > 0,0,0
+        10ms: end
+    6000ms: end
+    6000ms: loop 2000ms
+        0ms: setrgb A 0s > 0,188,0    #green
+        1ms: setrgb A 0s > 0,0,0
+        10ms: end
+    8000ms: end
+22500ms: end
 
 @Rainbow_B1
+0ms: loop 22500ms
+    0ms: setrgb B 128ms > 188,0,0         #red
+    128ms: setrgb B 128ms > 188,118,0	  #orange
+    256ms: setrgb B 128ms > 188,188,0     #yellow
+    384ms: setrgb B 128ms > 0,188,0       #green
+    512ms: setrgb B 128ms > 188,74		  #teal	
+    640ms: setrgb B 128ms > 0,147,147     #azure
+    768ms: setrgb B 128ms > 0,0,188       #blue
+    896ms: setrgb B 128ms > 140,0,188     #violet
+    1024ms: setrgb B 128ms > 188,0,125	  #pink
+    1152ms: end
+22500ms: end
 
 
 #######################################
@@ -111,12 +145,3 @@ Demons
 @Chorus_A8
 
 @Chorus_B8
-
-
-#######################################
-# Fade sequence 9
-#######################################
-
-@Fade_A9
-
-@Fade_B9
