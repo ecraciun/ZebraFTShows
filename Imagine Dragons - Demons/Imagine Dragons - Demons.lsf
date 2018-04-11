@@ -1,0 +1,122 @@
+Demons
+
+#off
+0s: setrgb AB 0s > 0,0,0
+
+#1
+0s: fork Dots_A1
+0s: fork Rainbow_B1
+
+#2
+22500ms: fork Strobe_A2
+22500ms: fork Strobe_B2
+
+#3
+43800ms: fork Chorus_A3
+43800ms: fork Chorus_B3
+
+#4
+65300ms: fork Dots_A4
+65300ms: fork Rainbow_B4
+
+#5
+86800ms: fork Strobe_A5
+86800ms: fork Strobe_B5
+
+#6
+107800ms: fork Chorus_A6
+107800ms: fork Chorus_B6
+
+#7
+129500ms: fork Outro_A7
+129500ms: fork Outro_B7
+
+#8
+150500ms: fork Chorus_A8
+150500ms: fork Chorus_B8
+
+#9
+171500ms: fork Fade_A9
+171500ms: fork Fade_B9
+
+173500ms: end
+
+#######################################
+# Chill verse sequence 1 
+#######################################
+
+@Dots_A1
+
+@Rainbow_B1
+
+
+#######################################
+# Uplift verse sequence 2
+#######################################
+
+@Strobe_A2
+
+@Strobe_B2
+
+
+#######################################
+# Chorus sequence 3
+#######################################
+
+@Chorus_A3
+
+@Chorus_B3
+
+
+#######################################
+# Chill verse sequence 4
+#######################################
+
+@Dots_A4
+
+@Rainbow_B4
+
+
+#######################################
+# Uplift verse sequence 5
+#######################################
+
+@Strobe_A5
+
+@Strobe_B5
+
+
+#######################################
+# Chorus sequence 6
+#######################################
+
+@Chorus_A6
+
+@Chorus_B6
+
+
+#######################################
+# Outro sequence 7
+#######################################
+
+@Outro_A7
+
+@Outro_B7
+
+
+#######################################
+# Chorus sequence 8
+#######################################
+
+@Chorus_A8
+
+@Chorus_B8
+
+
+#######################################
+# Fade sequence 9
+#######################################
+
+@Fade_A9
+
+@Fade_B9
