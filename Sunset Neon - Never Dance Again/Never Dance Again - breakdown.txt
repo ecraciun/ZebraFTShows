@@ -1,0 +1,63 @@
+Sunset Neon - Never Dance Again - 1 beat = 0.45s
+-----------------------------------------
+drum beat: 0.1s
+
+A = the big middle segments
+B = top/bottom thinner segments
+R = righ
+L = left
+
+[1] Start -> you say (verse intro)
+00:00 -> 00:07.6 ==> 
+~~~7.6s~~~
+
+[2] Verse -> up verse
+00:21.7 -> 00:36.6
+~~~14.9s~~~
+
+[3] Up verse -> so I'll guess
+00:36.6 -> 00:48.5
+~~~11.9s~~~
+
+[4] so I'll guess -> chorus
+00:48.5 -> 00:51.1
+~~~2.6s~~~
+
+[5] chorus -> interlude
+00:51.1 -> 01:06
+~~~14.9s~~~
+
+[6] interlude -> verse 2
+01:06 -> 01:09.35
+~~~3.35s~~~
+
+[7] verse 2 -> going up (you either...)
+01:09.35 -> 01:23.85
+~~~14.5s~~~
+
+[8] up verse 2 ->  so I'll guess
+01:23.85 -> 01:35.7
+~~~11.85s~~~
+
+[9]  so I'll guess -> chorus 2
+01:35.7 -> 01:38.2
+~~~2.5s~~~
+
+[10] chorus 2 -> end
+01:38.2 -> 02:08
+~~~29.8s~~~
+
+[11] Fade out
+02:08 -> 02:10
+~~~2s~~~
+
+------------------------------------------------------------------------------------------------------------------------
+
+Unique light show modes:
+
+ - [1] + [6]           	    ==> Intro/interlude:            strobe, neon green / cyan on A/B alternative?
+ - [2] + [7]         		==> Verse:           	        police (blue / red) on A/B, with white flashes on beat
+ - [3] + [8]                ==> Up verse variant:           rainbow on B, going from red -> orange -> yellow -> white with dots on A (still with white flashes on beat)
+ - [4] + [9]    			==> So I'll guess:				dark short, strobe alternative A/B
+ - [5] + [10]          		==> Chorus:      				solid color on B, alternative 2 colors on A with off in between (try to sync to beat) (and maybe change colors after 1-2 measures)
+ - [11]                     ==> Fade out:                   simply dim all lights to 0 gradually
