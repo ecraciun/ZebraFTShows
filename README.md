@@ -1,6 +1,6 @@
 # ZebraFTShows
 
-Well since I'm also a passionate flow artist and since I have some wonderful programmable Zebra FT Pois from Pyroterra Lighttoys, why not use this tool to manage the shows I'll write for them?
+Well since I'm also a passionate flow artist and since I have some wonderful programmable [Zebra FT Pois](https://lighttoys.cz/store/poi/zebra-poi-ft/) from [Pyroterra Lighttoys](https://lighttoys.cz/), why not use this tool to manage the shows I'll write for them?
 
 I don't know for how long I'll keep this repository public, because it's quite a lot of work to:
 - choose a song that vibrates with you
