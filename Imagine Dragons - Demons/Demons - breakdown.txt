@@ -1,0 +1,54 @@
+Imagine Dragons - Demons - 1 beat = 0.8s
+-----------------------------------------
+drum beat: 0.15s
+
+A = the big middle segments
+B = top/bottom thinner segments
+R = righ
+L = left
+
+[1] Start -> I wanna hide the truth
+00:02.5 -> 00:25 ==> 
+~~~22.5s~~~
+
+[2] I wanna hide the truth.... -> chorus 1
+00:25 -> 00:46.3 ==> 
+~~~21.3s~~~
+
+[3] Chorus 1 -> verse 2
+00:46.3 -> 01:07.8  ==> 
+~~~21.5s~~~
+
+[4] Verse 2 -> Don't wanna let you down
+01:07.8 -> 01:29.3 ==> 
+~~~21.5s~~~
+
+[5] Don't wanna let you down -> chorus 2
+01:29.3 -> 01:50.3 ==> 
+~~~21s~~~
+
+[6] Chors 2 -> they say 
+01:50.3 -> 02:12 ==> 
+~~~22.3s~~~
+
+[7] They say -> chorus 3 (outro)
+02:12 -> 02:33 ==> 
+~~~11s~~~
+
+[8] Chorus 3 -> end
+02:33 -> 00:54 ==> 
+~~~21s~~~
+
+[9] Fade out 
+02:54 -> 02:56
+~~~2s~~~
+
+------------------------------------------------------------------------------------------------------------------------
+
+Unique light show modes:
+
+ - [1] + [4]           	    ==> Verse chill: 	            rainbow B, dots A, changing color
+ - [2] + [5]         		==> Verse uplift:           	dots or strobe A + B, complementary colors, changing
+ - [3] + [6] + [8]			==> Chorus: 					white explosion on first beat, alternative complementary chainging colors on A / B, with beats on full white 
+ - [7]               		==> Outro verse: 				full rainbow alternative on A / B, other off, at the end both together, increase intensity, then dark
+ - [9]                      ==> Fade out:                   simply dim all lights to 0 gradually
