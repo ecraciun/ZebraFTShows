@@ -33,6 +33,9 @@ L = left
 
 [7] They say -> chorus 3 (outro)
 02:12 -> 02:33 ==> 
+// 02:22.6 (increase intensity) - after 10.6s
+// 02:27.9 (increase intensity) - after 5.3s
+// 02:30.6 (off) - after 2.7s
 ~~~21s~~~
 
 [8] Chorus 3 -> end
@@ -50,5 +53,5 @@ Unique light show modes:
 DONE - [1] + [4]           	==> Verse chill: 	            rainbow B, dots A, changing color
  - [2] + [5]         		==> Verse uplift:           	dots or strobe A + B, complementary colors, changing
  - [3] + [6] + [8]			==> Chorus: 					white explosion on first beat, alternative complementary chainging colors on A / B, with beats on full white 
- - [7]               		==> Outro verse: 				full rainbow alternative on A / B, other off, at the end both together, increase intensity, then dark
+DONE - [7]               	==> Outro verse: 			full rainbow alternative on A / B, other off, at the end both together, increase intensity, then dark
 DONE - [9]                  ==> Fade out:                   simply dim all lights to 0 gradually

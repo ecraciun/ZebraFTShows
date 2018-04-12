@@ -1,7 +1,7 @@
 Demons
 
 #off
-0s: setrgb AB 0s > 0,0,0
+0s: setrgb AB 0ms > 0,0,0
 
 #1
 0s: fork Dots_A1
@@ -28,16 +28,24 @@ Demons
 107800ms: fork Chorus_B6
 
 #7
-129500ms: fork Outro_A7
-129500ms: fork Outro_B7
+129500ms: fork Outro_A7_1
+129500ms: fork Outro_B7_1
+
+140100ms: fork Outro_A7_2
+140100ms: fork Outro_B7_2
+
+145400ms: fork Outro_A7_3
+145400ms: fork Outro_B7_3
+
+148100ms: setrgb AB 0ms > 0,0,0
 
 #8
 150500ms: fork Chorus_A8
 150500ms: fork Chorus_B8
 
 #9
-171500ms: setrgb AB 0s > 255,255,255
-171600ms: setrgb AB 2s > 0,0,0
+171500ms: setrgb AB 0ms > 255,255,255
+171600ms: setrgb AB 2000ms > 0,0,0
 
 173500ms: end
 
@@ -75,7 +83,7 @@ Demons
     128ms: setrgb B 128ms > 188,118,0	  #orange
     256ms: setrgb B 128ms > 188,188,0     #yellow
     384ms: setrgb B 128ms > 0,188,0       #green
-    512ms: setrgb B 128ms > 188,74		  #teal	
+    512ms: setrgb B 128ms > 0,188,74	  #teal	
     640ms: setrgb B 128ms > 0,147,147     #azure
     768ms: setrgb B 128ms > 0,0,188       #blue
     896ms: setrgb B 128ms > 140,0,188     #violet
@@ -107,9 +115,42 @@ Demons
 #######################################
 
 @Dots_A4
+0ms: loop 21500ms
+    0ms: loop 2000ms
+        0ms: setrgb A 0s > 140,0,188    #violet
+        1ms: setrgb A 0s > 0,0,0
+        10ms: end
+    2000ms: end
+    2000ms: loop 2000ms
+        0ms: setrgb A 0s > 188,188,188   #white
+        1ms: setrgb A 0s > 0,0,0
+        10ms: end
+    4000ms: end
+    4000ms: loop 2000ms
+        0ms: setrgb A 0s > 0,147,147    #azure
+        1ms: setrgb A 0s > 0,0,0
+        10ms: end
+    6000ms: end
+    6000ms: loop 2000ms
+        0ms: setrgb A 0s > 0,188,0    #green
+        1ms: setrgb A 0s > 0,0,0
+        10ms: end
+    8000ms: end
+21500ms: end
 
 @Rainbow_B4
-
+0ms: loop 21500ms
+    0ms: setrgb B 128ms > 188,0,0         #red
+    128ms: setrgb B 128ms > 188,118,0	  #orange
+    256ms: setrgb B 128ms > 188,188,0     #yellow
+    384ms: setrgb B 128ms > 0,188,0       #green
+    512ms: setrgb B 128ms > 0,188,74	  #teal	
+    640ms: setrgb B 128ms > 0,147,147     #azure
+    768ms: setrgb B 128ms > 0,0,188       #blue
+    896ms: setrgb B 128ms > 140,0,188     #violet
+    1024ms: setrgb B 128ms > 188,0,125	  #pink
+    1152ms: end
+21500ms: end
 
 #######################################
 # Uplift verse sequence 5
@@ -133,9 +174,97 @@ Demons
 # Outro sequence 7
 #######################################
 
-@Outro_A7
+@Outro_A7_1
+0ms: loop 10600ms
+    0ms: setrgb A 128ms > 131,0,0         #red
+    128ms: setrgb A 128ms > 131,82,0	  #orange
+    256ms: setrgb A 128ms > 131,131,0     #yellow
+    384ms: setrgb A 128ms > 0,131,0       #green
+    512ms: setrgb A 128ms > 0,131,52	  #teal	
+    640ms: setrgb A 128ms > 0,103,103     #azure
+    768ms: setrgb A 128ms > 0,0,131       #blue
+    896ms: setrgb A 128ms > 98,0,131      #violet
+    1024ms: setrgb A 128ms > 131,0,88	  #pink
+    1152ms: setrgb A 0ms > 0,0,0          #nothing
+    2305ms: end
+10600ms: end
 
-@Outro_B7
+@Outro_B7_1
+0ms: loop 10600ms
+    0ms: setrgb A 0ms > 0,0,0              #nothing
+    1152ms: setrgb A 128ms > 131,0,0       #red
+    1280ms: setrgb A 128ms > 131,82,0	   #orange
+    1408ms: setrgb A 128ms > 131,131,0     #yellow
+    1536ms: setrgb A 128ms > 0,131,0       #green
+    1664ms: setrgb A 128ms > 0,131,52	   #teal	
+    1792ms: setrgb A 128ms > 0,103,103     #azure
+    1920ms: setrgb A 128ms > 0,0,131       #blue
+    2048ms: setrgb A 128ms > 98,0,131      #violet
+    2176ms: setrgb A 128ms > 131,0,88	   #pink
+    2305ms: end
+10600ms: end
+
+
+@Outro_A7_2
+0ms: loop 5300ms
+    0ms: setrgb A 128ms > 188,0,0         #red
+    128ms: setrgb A 128ms > 188,118,0	  #orange
+    256ms: setrgb A 128ms > 188,188,0     #yellow
+    384ms: setrgb A 128ms > 0,188,0       #green
+    512ms: setrgb A 128ms > 0,188,74	  #teal	
+    640ms: setrgb A 128ms > 0,147,147     #azure
+    768ms: setrgb A 128ms > 0,0,188       #blue
+    896ms: setrgb A 128ms > 140,0,188     #violet
+    1024ms: setrgb A 128ms > 188,0,125	  #pink
+    1152ms: setrgb A 0ms > 0,0,0          #nothing
+    2305ms: end
+5300ms: end
+
+@Outro_B7_2
+0ms: loop 5300ms
+    0ms: setrgb A 0ms > 0,0,0              #nothing
+    1152ms: setrgb A 128ms > 188,0,0       #red
+    1280ms: setrgb A 128ms > 188,118,0	   #orange
+    1408ms: setrgb A 128ms > 188,188,0     #yellow
+    1536ms: setrgb A 128ms > 0,188,0       #green
+    1664ms: setrgb A 128ms > 0,188,74	   #teal	
+    1792ms: setrgb A 128ms > 0,147,147     #azure
+    1920ms: setrgb A 128ms > 0,0,188       #blue
+    2048ms: setrgb A 128ms > 140,0,188     #violet
+    2176ms: setrgb A 128ms > 188,0,125	   #pink
+    2305ms: end
+5300ms: end
+
+
+@Outro_A7_3
+0ms: loop 2700ms
+    0ms: setrgb A 64ms > 255,0,0         #red
+    64ms: setrgb A 64ms > 255,160,0	     #orange
+    128ms: setrgb A 64ms > 255,255,0     #yellow
+    192ms: setrgb A 64ms > 0,255,0       #green
+    256ms: setrgb A 64ms > 0,255,100	 #teal	
+    320ms: setrgb A 64ms > 0,200,200     #azure
+    384ms: setrgb A 64ms > 0,0,255       #blue
+    448ms: setrgb A 64ms > 190,0,255     #violet
+    512ms: setrgb A 64ms > 255,0,170	 #pink
+    576ms: setrgb A 0ms > 0,0,0          #nothing
+    1152ms: end
+2700ms: end
+
+@Outro_B7_3
+0ms: loop 2700ms
+    0ms: setrgb A 0ms > 0,0,0             #nothing
+    576ms: setrgb A 64ms > 255,0,0        #red
+    640ms: setrgb A 64ms > 255,160,0	  #orange
+    704ms: setrgb A 64ms > 1255,255,0     #yellow
+    768ms: setrgb A 64ms > 0,255,0        #green
+    832ms: setrgb A 64ms > 0,255,100	  #teal	
+    896ms: setrgb A 64ms > 0,200,200      #azure
+    960ms: setrgb A 64ms > 0,0,255        #blue
+    1024ms: setrgb A 64ms > 190,0,255     #violet
+    1088ms: setrgb A 64ms > 255,0,170	  #pink
+    1152ms: end
+2700ms: end
 
 
 #######################################
