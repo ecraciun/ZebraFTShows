@@ -60,4 +60,4 @@ Unique light show modes:
  - [3] + [8]                ==> Up verse variant:           rainbow on B, going from red -> orange -> yellow -> white with dots on A (still with white flashes on beat)
  - [4] + [9]    			==> So I'll guess:				dark short, strobe alternative A/B
  - [5] + [10]          		==> Chorus:      				solid color on B, alternative 2 colors on A with off in between (try to sync to beat) (and maybe change colors after 1-2 measures)
- - [11]                     ==> Fade out:                   simply dim all lights to 0 gradually
+ DONE - [11]                ==> Fade out:                   simply dim all lights to 0 gradually

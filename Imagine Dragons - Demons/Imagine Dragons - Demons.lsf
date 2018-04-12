@@ -50,7 +50,7 @@ Demons
 171500ms: setrgb AB 0ms > 255,255,255
 171600ms: setrgb AB 2000ms > 0,0,0
 
-173500ms: end
+173600ms: end
 
 #######################################
 # Chill verse sequence 1 
