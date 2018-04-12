@@ -97,9 +97,52 @@ Demons
 #######################################
 
 @Strobe_A2
+0ms: loop 21300ms
+    0ms: loop 2000ms
+        0ms: setrgb A 0s > 140,0,188    #violet
+        40ms: setrgb A 0s > 0,0,0
+        80ms: end
+    2000ms: end
+    2000ms: loop 2000ms
+        0ms: setrgb A 0s > 188,118,0   #orange
+        40ms: setrgb A 0s > 0,0,0
+        80ms: end
+    4000ms: end
+    4000ms: loop 2000ms
+        0ms: setrgb A 0s > 0,147,147    #azure
+        40ms: setrgb A 0s > 0,0,0
+        80ms: end
+    6000ms: end
+    6000ms: loop 2000ms
+        0ms: setrgb A 0s > 0,188,0    #green
+        40ms: setrgb A 0s > 0,0,0
+        80ms: end
+    8000ms: end
+21300ms: end
 
 @Strobe_B2
-
+0ms: loop 21300ms
+    0ms: loop 2000ms
+        0ms: setrgb A 0s > 0,188,0    #green
+        40ms: setrgb A 0s > 0,0,0
+        80ms: end
+    2000ms: end
+    2000ms: loop 2000ms
+        0ms: setrgb A 0s > 140,0,188    #violet
+        40ms: setrgb A 0s > 0,0,0
+        80ms: end
+    4000ms: end
+    4000ms: loop 2000ms
+        0ms: setrgb A 0s > 188,118,0   #orange
+        40ms: setrgb A 0s > 0,0,0
+        80ms: end
+    6000ms: end
+    6000ms: loop 2000ms
+        0ms: setrgb A 0s > 0,147,147    #azure
+        40ms: setrgb A 0s > 0,0,0
+        80ms: end
+    8000ms: end
+21300ms: end
 
 #######################################
 # Chorus sequence 3
@@ -157,8 +200,52 @@ Demons
 #######################################
 
 @Strobe_A5
+0ms: loop 21000ms
+    0ms: loop 2000ms
+        0ms: setrgb A 0s > 140,0,188    #violet
+        40ms: setrgb A 0s > 0,0,0
+        80ms: end
+    2000ms: end
+    2000ms: loop 2000ms
+        0ms: setrgb A 0s > 188,118,0   #orange
+        40ms: setrgb A 0s > 0,0,0
+        80ms: end
+    4000ms: end
+    4000ms: loop 2000ms
+        0ms: setrgb A 0s > 0,147,147    #azure
+        40ms: setrgb A 0s > 0,0,0
+        80ms: end
+    6000ms: end
+    6000ms: loop 2000ms
+        0ms: setrgb A 0s > 0,188,0    #green
+        40ms: setrgb A 0s > 0,0,0
+        80ms: end
+    8000ms: end
+21000ms: end
 
 @Strobe_B5
+0ms: loop 21000ms
+    0ms: loop 2000ms
+        0ms: setrgb A 0s > 0,188,0    #green
+        40ms: setrgb A 0s > 0,0,0
+        80ms: end
+    2000ms: end
+    2000ms: loop 2000ms
+        0ms: setrgb A 0s > 140,0,188    #violet
+        40ms: setrgb A 0s > 0,0,0
+        80ms: end
+    4000ms: end
+    4000ms: loop 2000ms
+        0ms: setrgb A 0s > 188,118,0   #orange
+        40ms: setrgb A 0s > 0,0,0
+        80ms: end
+    6000ms: end
+    6000ms: loop 2000ms
+        0ms: setrgb A 0s > 0,147,147    #azure
+        40ms: setrgb A 0s > 0,0,0
+        80ms: end
+    8000ms: end
+21000ms: end
 
 
 #######################################
